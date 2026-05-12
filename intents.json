@@ -1,0 +1,85 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good morning",
+                "Good evening",
+                "Yo",
+                "What's up",
+                "Greetings",
+                "Howdy",
+                "Sup",
+                "Hi there"
+            ],
+            "responses": [
+                "Hello!",
+                "Hey!",
+                "Hi there",
+                "How can I help?",
+                "What's up!"
+            ]
+        },
+        {
+            "tag": "howareyou",
+            "patterns": [
+                "How are you",
+                "How you doing",
+                "How's it going",
+                "You good",
+                "How are things",
+                "How are you doing",
+                "Are you okay",
+                "How do you do",
+                "What's good",
+                "How have you been"
+            ],
+            "responses": [
+                "I'm great, thanks for asking!",
+                "Doing well! You?",
+                "All good here. How about you?",
+                "I'm doing awesome!"
+            ]
+        },
+        {
+            "tag": "time",
+            "patterns": [
+                "What time is it",
+                "Tell me the time",
+                "Current time",
+                "Do you know the time",
+                "What's the time",
+                "Time please",
+                "Can you tell time",
+                "Give me the time"
+            ],
+            "responses": [
+                "I can't check the time, but look at your taskbar!",
+                "I don't have a watch unfortunately :)",
+                "Check your system clock for the exact time"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "See ya",
+                "Cya",
+                "I'm leaving",
+                "Gotta go",
+                "Talk to you later"
+            ],
+            "responses": [
+                "Bye! Have a great day!",
+                "See you later!",
+                "Take care!",
+                "Goodbye!"
+            ]
+        }
+    ]
+}
